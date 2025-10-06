@@ -1,0 +1,50 @@
+{
+  "name": "bitcoin-browser",
+  "version": "1.0.0",
+  "description": "Decentralized web browser for BSV blockchain content",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 5001",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "lint": "eslint"
+  },
+  "keywords": [
+    "bitcoin",
+    "bsv",
+    "blockchain",
+    "browser",
+    "metanet",
+    "decentralized",
+    "handcash",
+    "x402"
+  ],
+  "author": "The Bitcoin Corporation LTD",
+  "license": "Open BSV License Version 5",
+  "dependencies": {
+    "@auth/prisma-adapter": "^2.10.0",
+    "@bsv/sdk": "^1.7.6",
+    "@handcash/handcash-connect": "^0.8.11",
+    "@handcash/handcash-sdk": "^0.0.4",
+    "autoprefixer": "^10.4.21",
+    "lucide-react": "^0.544.0",
+    "next": "15.5.3",
+    "next-auth": "^4.24.11",
+    "prisma": "^6.16.1",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-icons": "^5.5.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.3",
+    "nodemon": "^3.1.10",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

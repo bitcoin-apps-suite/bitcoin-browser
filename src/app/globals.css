@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+  --primary-purple: #8B5CF6;
+  --primary-blue: #3B82F6;
+  --purple-gradient-start: #A855F7;
+  --purple-gradient-end: #3B82F6;
+  --accent-purple: #7C3AED;
+  --accent-blue: #2563EB;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: ui-sans-serif, system-ui, sans-serif;
+}
